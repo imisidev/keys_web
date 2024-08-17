@@ -1,0 +1,114 @@
+.body {
+    width: 100%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0px 0px 0px;
+}
+
+.title {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.headliner {
+    position: relative;
+    z-index: 5;
+    width: 48vw;
+    height: 440px;
+    background-color: green;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px 30px;
+    background: linear-gradient(to bottom, transparent 0%, black 100%), url('../../../public/j.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headliner span:nth-child(1) {
+    font-size: 13px;
+    color: white;
+}
+
+.headliner span:nth-child(2) {
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    margin: 15px 0;
+}
+
+.headliner span:nth-child(3) {
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+}
+
+.journals_cont {
+    width: 48%;
+    height: 440px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.journal {
+    width: 100%;
+    height: calc(400px/3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+.journal_img_cont {
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+.journal_img {
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.journal_texts {
+    width: 73%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.journal_texts span:nth-child(1) {
+    font-size: 14px;
+    font-weight: 600;
+    color: #A89E9E;
+}
+
+.journal_texts span:nth-child(2) {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.journal_texts span:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #484646;
+}

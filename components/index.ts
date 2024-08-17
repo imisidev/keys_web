@@ -1,0 +1,10 @@
+export { Header as LandingHeader } from "./landingpage/header";
+export { Carousel as LandingCarousel } from "./landingpage/carousel";
+export { Categories as LandingCategory } from "./landingpage/categories";
+export { Advert as LandingAdvert } from "./landingpage/advert";
+export { Trending as LandingTrending } from "./landingpage/trending"
+export { Journal as LandingJournal } from "./landingpage/journal";
+export { Podcast as LandingPodcast } from "./landingpage/podcast";
+export { Updates as LandingUpdates } from "./landingpage/updates";
+export { Links as LandingLinks } from "./landingpage/links";
+export { Footer as LandingFooter } from "./landingpage/footer";

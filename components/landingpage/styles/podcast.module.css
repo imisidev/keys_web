@@ -1,0 +1,166 @@
+.section {
+    padding: 0px 30px;
+    margin-bottom: 70px;
+}
+
+.podcast {
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    margin-top: 150px;
+    border-radius: 20px;
+    background: url('../../../public/rs2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.podcast_bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: 5;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    /* opacity: 0.7; */
+}
+
+.host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 5;
+}
+
+.host img {
+    width: 120px;
+    height: 120px;
+}
+
+.host span:nth-child(1) {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    /* margin: 10px 0; */
+}
+
+.host span:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.host_span {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.podcast_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    z-index: 5;
+}
+
+.podcast_cont span:nth-child(1) {
+    color: white;
+    font-weight: 700;
+}
+
+.podcast_cont span:nth-child(2) {
+    max-width: 500px;
+    color: white;
+    font-weight: 200;
+}
+
+.podcast_cont button {
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #FFB800;
+    color: black;
+}
+
+.dash {
+    width: 100%;
+    height: 1px;
+    background-color: #e7e7ed;
+    margin: 50px 0px 50px 0;
+}
+
+.networks {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    gap: 20px;
+}
+
+.networks span {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.networks_img_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 85px;
+}
+
+.networks_img_cont img {
+    width: 5;
+}
+
+.comments {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: #F4F5F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.comments_text {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 300;
+    max-width: 600px;
+    text-align: center;
+}
+
+.commenter {
+    font-size: 12px;
+    font-weight: 400;
+    color: #434242;
+}
+
+.count_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.count {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+}
